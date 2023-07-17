@@ -52,3 +52,26 @@ nav li a{
     align-items: center;
     margin-top: 30px;
 }
+/*  popular collection*/
+.h2{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+
+
+
+/* responsive mobile website  */
+@media screen and (max-width:576px) {
+    nav, .container, .logo, nav > ul{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .logo{
+        gap: 20px;
+    }
+    
+}
