@@ -7,6 +7,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+    background-color: whitesmoke;
+    height: 50px;
 }
 nav > ul{
     display: flex;
@@ -27,6 +29,8 @@ nav li a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
+    background-color: white;
+    height: auto;
 }
 .h1, .prara{
     margin-bottom: 20px;
@@ -51,6 +55,9 @@ nav li a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
+    background-color: whitesmoke;
+    height: 80px;
+    border-radius: 10px;
 }
 /*  popular collection*/
 .h2{
@@ -58,8 +65,31 @@ nav li a{
     font-weight: 700;
     margin-top: 100px;
 }
+.img-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #fff;
+    height: auto;
 
-
+}
+.img-collection h3{
+    margin-bottom: 10px;
+}
+.img-collection p{
+    margin-top: 10px;
+}
+.img-collection img{
+    margin-bottom: 10px;
+}
+.see{
+    font-size: 1rem;
+    color: #E02C6D;
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 100px;
+}
 
 
 /* responsive mobile website  */
