@@ -39,6 +39,9 @@ nav li a{
     margin-top: 30px;
     
 }
+.background{
+    background-image: url("../images/Circle\ design.svg");
+}
 .h1, .prara{
     margin-bottom: 20px;
 }
@@ -65,7 +68,7 @@ nav li a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 100px;
     
 }
 /*  popular collection*/
@@ -145,7 +148,15 @@ footer p{
     font-size: 0.90rem;
     font-weight: 700;
 }
-
+.footer-logo{
+    width: 30px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.footer-logo3{
+    width: 40px;
+    padding-left: 20px;
+}
 
 
 /* responsive mobile website  */
